@@ -1,6 +1,8 @@
 
 <!DOCTYPE html>
 <html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
@@ -8,7 +10,7 @@
 
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: Courier New;
   background-color: #D6D6D6;
 }
 
@@ -24,21 +26,52 @@ body {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 33%; 
-  flex: 33%;
-  max-width: 33%;
+  -ms-flex: 100%; 
+  flex: 100%;
+  max-width: 100%;
   padding: 0 4px;
 }
 
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
+  width: 80%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
+.topnav {
+  overflow: hidden;
+  background-color: #D6D6D6;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-left: 200px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #D6D6D6;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 200px;
+}
+
+
+
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
@@ -47,7 +80,7 @@ body {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
@@ -56,27 +89,56 @@ body {
   }
 }
 </style>
+</head>
 <body>
 
 <!-- Header -->
 <div class="header">
- 
+	<br>
+	<br>
+	<br>
 </div>
 
-<!-- Photo Grid -->
+<div class="topnav">
+  <a class="active" href="index.html">Twitter Edits</a>
+  <div class="topnav-right">
+    <a href="extended.html">Extended Videos</a>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<center>
+<!-- Grid -->
+
+<div class="column">
+     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">lover - david x patrick<br><br>after dozens of drafts, i&#39;m finally done with this, and ngl i think it turned out pretty good! still couldn&#39;t get it to under a minute so watch this and then head over to the link below for the extended version✌️🏻 <a href="https://t.co/eE4qoCYzYJ">pic.twitter.com/eE4qoCYzYJ</a></p>&mdash; legends only (@legends_only_) <a href="https://twitter.com/legends_only_/status/1188946274508267523?ref_src=twsrc%5Etfw">October 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+
+ <div class="column">
+     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">delicate - david x patrick<br><br>this taylor x schitt&#39;s creek crossover is brought to you by a venti iced coffee that got me through editing during a layover on my way home from denver up close and personal, enjoy🙃 <a href="https://t.co/glqYea35oA">pic.twitter.com/glqYea35oA</a></p>&mdash; legends only (@legends_only_) <a href="https://twitter.com/legends_only_/status/1186745629533495296?ref_src=twsrc%5Etfw">October 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+
+ <div class="column">
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">enchanted - david x patrick<br><br>pretty proud of how this turned out, enjoy🙃 <a href="https://t.co/GEDAq5JJUA">pic.twitter.com/GEDAq5JJUA</a></p>&mdash; legends only (@legends_only_) <a href="https://twitter.com/legends_only_/status/1183499838933143566?ref_src=twsrc%5Etfw">October 13, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>  
+
 <div class="row"> 
   <div class="column">
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">stay stay stay - david x patrick<br><br>i love two happy boys 🙃 <a href="https://t.co/OEt2EGaOiv">pic.twitter.com/OEt2EGaOiv</a></p>&mdash; legends only (@legends_only_) <a href="https://twitter.com/legends_only_/status/1171932875354189826?ref_src=twsrc%5Etfw">September 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 
-  <div class="column">
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">enchanted - david x patrick<br><br>pretty proud of how this turned out, enjoy🙃 <a href="https://t.co/GEDAq5JJUA">pic.twitter.com/GEDAq5JJUA</a></p>&mdash; legends only (@legends_only_) <a href="https://twitter.com/legends_only_/status/1183499838933143566?ref_src=twsrc%5Etfw">October 13, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>  
   
-  <div class="column">
-     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">delicate - david x patrick<br><br>this taylor x schitt&#39;s creek crossover is brought to you by a venti iced coffee that got me through editing during a layover on my way home from denver up close and personal, enjoy🙃 <a href="https://t.co/glqYea35oA">pic.twitter.com/glqYea35oA</a></p>&mdash; legends only (@legends_only_) <a href="https://twitter.com/legends_only_/status/1186745629533495296?ref_src=twsrc%5Etfw">October 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
+  
+ 
 </div>
+<br>
+<br>
+<br>
+</center>
 
 </body>
 </html>
